@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title">Wireless Order Form</h1>
+        </header><br>
+        <div class="discription">
+            <p id="description">Fill the details below to complete your Wireless Order</p>
+        </div><br>
+        <div class="form">
+    <form id="survey-form">
+        <label for="name" id="name-label"><b>Name:</b></label><br>
+        <input type="text" id="name" name="name" placeholder="John Doe" required><br>
+        <lable for="email" id="email-label"><b>E-mail:</b></lable><br>
+        <input type="text" id="email" name="email" placeholder="johndoe@email.com" required><br>
+        <label for="age" id="number-label"><b>Age:</b></label><br>
+        <input type="age" id="number" name="number" placeholder="18" min="18" max="99" required><br>
+        <label for="dropdown" id="model"><b>Select a type:</b></label><br>
+        <select id="dropdown">
+            <option value="Select">Select</option><br><br>
+            <option value="TWS">True Wireless Sterio</option>
+            <option value="neck-band">Neck Band</option>
+            <option value="wireless-headphone">Wireless headphone</option>
+            <option value="active-noise-cancellation">Active Noise Cancellation</option>
+        </select><br><br>
+        <label for="colour" id="product-colour"><b>Product colour:</b></label><br>
+            <input type="radio" id="product-colour" id="black" name="color" value="black">
+            <label for="product-colour">Black</label><br>
+            <input type="radio" id="product-colour" id="white" name="color" value="white">
+            <label for="product-colour">White</label><br>
+            <input type="radio" id="product-colour" id="red" name="color" value="red">
+            <label for="product-colour">Red</label><br>
+            <input type="radio" id="product-colour" id="blue" name="color" value="blue">
+            <label for="product-colour">Blue</label><br>
+            <br>
+        <label for="features"><b>Add Features:</b></label><br>
+            <input type="checkbox" id="checkbox" name="features" value="bass-booster">
+            <label for="checkbox">Bass Booster</label><br>
+            <input type="checkbox" id="checkbox" name="features" value="gamer-mode">
+            <label for="checkbox">Gamer Mode</label><br>
+            <input type="checkbox" id="checkbox" name="features" value="wireless-charging">
+            <label for="checkbox">Wireless Charging</label><br><br>
+        <label id="textarea"><b>Additional Comments</b></label><br>
+            <textarea id="textarea-enter" name="instruction" rows="5" cols="35" class="comment">
+
+            </textarea>
+            <br><br>
+
+        <input type="submit" value="Place Order" id="submit" class="submit">
+    </form>
+    </div>
+    </div>
+</body>
+</html>
